@@ -17,7 +17,7 @@ function ProductDetails() {
   const navigate = useNavigate();
 
   const { addFavouriteMovie, favourites } = useContext(localContext);
-  
+
   if (loading) {
     <div className="spinner-border" role="status">
       <span className="visually-hidden">Loading...</span>

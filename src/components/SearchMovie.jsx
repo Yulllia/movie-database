@@ -26,7 +26,7 @@ function SearchMovie() {
   }, [value]);
 
   return (
-    <div className="card-backround">
+    <div className="search-backround">
     <Navbar/>
     <div className="container" >
       <div className="row">

@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.1",
     "gh-pages": "^4.0.0",
-    "homepage": "https://yulllia.github.io/details/:id",
+    "homepage": "https://yulllia.github.io/",
     "react": "^18.0.0",
     "react-crud-icons": "^1.1.0",
     "react-dom": "^18.0.0",

@@ -41,7 +41,10 @@ html,body,#root{
   padding-left: 4px;
   background-color: white;
 }
-
+.search-backround{
+  background: url("../src/assets/light-back.png") no-repeat;
+  background-size: cover;
+}
 .button-style {
   display: block;
 }
@@ -54,12 +57,18 @@ html,body,#root{
   height: 100%;
   background: url("../src/assets/backround.png") no-repeat;
 }
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1200px) {
 .card-backround{
   background: url("../src/assets/light-back.png") no-repeat;
   background-size: cover;
 }
 }
+@media only screen and (max-width: 990px) {
+  .search-backround{
+    background: url("../src/assets/light-back.png") no-repeat;
+    background-size: cover;
+  }
+  }
 @media only screen and (max-width: 572px) {
   .image-place {
     margin: 0px 10% 10% 0px;

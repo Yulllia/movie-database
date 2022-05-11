@@ -29,7 +29,6 @@ function FetchingData() {
       );
       movies.json().then((data) => setMovie(data.results));
       setLoading(false);
-      console.log("Hello")
     };
     fetchMovies();
   }, [urlGenre]);

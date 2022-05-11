@@ -30,7 +30,7 @@ function Movies({ movie, loading }) {
                   {filmId ? "Додано!" : "Додати в обране"}
                 </div>
                 {item.poster_path !== null && (
-                  <Link to={`/details/${item.id}`} state={addFavouriteMovie}>
+                  <Link to={`/details/${item.id}`}>
                     <img
                       src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}
                       alt={item.title}
