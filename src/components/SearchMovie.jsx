@@ -23,12 +23,12 @@ function SearchMovie() {
         );
     };
     fetchMovies();
-  }, []);
+  }, [value]);
 
   return (
-    <>
+    <div className="card-backround">
     <Navbar/>
-    <div className="container">
+    <div className="container" >
       <div className="row">
         <h1 className="title-top text-primary title-align mb-5 mx-5">
           Рекомендовані фільми
@@ -49,7 +49,7 @@ function SearchMovie() {
           })}
       </div>
     </div>
-    </>
+    </div>
   );
 }
 

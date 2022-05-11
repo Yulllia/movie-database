@@ -4,7 +4,6 @@ import PaginationPage from "./Pagination";
 import Navbar from "./Navbar";
 import ContextLocalStorage from "../context/ContextLocalStorage";
 
-
 function FetchingData() {
   const [movie, setMovie] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -41,10 +40,10 @@ function FetchingData() {
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   return (
-    <div>
+    <div className="card-backround">
       <Navbar />
       <ContextLocalStorage>
-      <Movies movie={currentMovie} loading={loading} genre={genre} />
+        <Movies movie={currentMovie} loading={loading} genre={genre} />
       </ContextLocalStorage>
       <PaginationPage
         moviesPerPage={moviesPerPage}

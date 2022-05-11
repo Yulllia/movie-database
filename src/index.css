@@ -4,7 +4,6 @@ html,body,#root{
 #root>div{
   height: 100%;
   background: url("../src/assets/light-back.png") no-repeat;
-  background-size: cover;
 }
 .image-place {
   margin: 0px 15% 15% 0px;
@@ -24,6 +23,10 @@ html,body,#root{
   background-image: url("../src/assets/backround.png");
   background-size: cover;
   width: 100%;
+}
+.recomendation-backround{
+  background: url("../src/assets/light-back.png") no-repeat;
+  background-size: cover;
 }
 .card-layout {
   display: flex;
@@ -46,13 +49,16 @@ html,body,#root{
   display: flex;
   justify-content: center;
 }
+
+.choosed{
+  height: 100%;
+  background: url("../src/assets/backround.png") no-repeat;
+}
+@media only screen and (max-width: 970px) {
 .card-backround{
   background: url("../src/assets/light-back.png") no-repeat;
   background-size: cover;
 }
-.choosed{
-  height: 100%;
-  background: url("../src/assets/backround.png") no-repeat;
 }
 @media only screen and (max-width: 572px) {
   .image-place {
@@ -72,6 +78,7 @@ html,body,#root{
   .orientation {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   .image{
     margin-bottom: 20px;

@@ -80,7 +80,7 @@ function ProductDetails() {
           </div>
         </div>
       </div>
-      <div className="card-backround">
+      <div className="recomendation-backround">
         <h1 className="title-top text-center mb-5 mx-5">
           {recomFilm.length > 0
             ? "Рекомендовані фільми"
