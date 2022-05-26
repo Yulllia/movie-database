@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.1",
     "gh-pages": "^4.0.0",
-    "homepage": "https://yulllia.github.io/movieList",
+    "homepage": "https://yulllia.github.io/movie-database",
     "react": "^18.0.0",
     "react-crud-icons": "^1.1.0",
     "react-dom": "^18.0.0",
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d static"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
